@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Planos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Sistema de Aline Garcês Diniz</h1>
+    </header>
+    <main>
+        <form id="plano-form">
+            <label for="valorBase">Valor Base do Plano (R$):</label>
+            <input type="number" id="valorBase" placeholder="Ex.: 100" required>
+            
+            <label for="idade">Idade do Cliente:</label>
+            <input type="number" id="idade" placeholder="Ex.: 25" required>
+            
+            <button type="button" id="calcular">Calcular Valor Mensal</button>
+        </form>
+        <div id="resultado">
+            <h2>Resultado:</h2>
+            <p id="valorMensal">Preencha os campos acima e clique em calcular.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sistema de Aline Garcês Diniz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
